@@ -19,7 +19,9 @@ The goal is to simulate real-world analytical work using SQL Server.
   - NULL customer IDs
   - Negative quantities and sales
   - Null and invalid discounts
-  - Inconsistent return flags
+  - Inconsistent return flags  
+
+🔗 **[View messy, cleaned dataset sales_dirty.sql and few screenshots here---->](https://drive.google.com/drive/folders/1lisCIi2rWess14IepEHl3K-mNe_ZYyUl?usp=drive_link)**  
 
 ---
 
