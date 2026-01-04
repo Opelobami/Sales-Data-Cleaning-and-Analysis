@@ -6,7 +6,7 @@ This project demonstrates a full end-to-end SQL workflow:
 - Importing raw, dirty sales data
 - Cleaning and validating data
 - Removing duplicates safely
-- Performing business analysis using SQL
+- Answering business questions using SQL aggregations and date functions
 
 The goal is to simulate real-world analytical work using SQL Server.
 
@@ -25,11 +25,11 @@ The goal is to simulate real-world analytical work using SQL Server.
 
 ## Data Cleaning Steps
 1. Removed duplicate order IDs using a surrogate key
-2. Standardized region using the CASE function
-3. Cleaned quantity, unit price, and discount columns
+2. Standardized categorical fields (region, country and product_category)
+3. Cleaned and validated numerical fields (quantity, unit price, and discount)
 4. Recalculated sales amount from clean inputs
-5. Standardized returned flag to 1 (Returned) and 0 (Not Returned)
-6. Applied CHECK constraints to enforce data quality
+5. Standardized returned flag to 1 (Returned), 0 (Not Returned) and NULL for empty returned.
+6. Created clean, reusable tables for analysis
 
 ---
 
@@ -44,12 +44,18 @@ The goal is to simulate real-world analytical work using SQL Server.
 
 ---
 
-## Tools Used
-- SQL Server
-- T-SQL
-- GitHub
+## Tools and SKills demonstrated
+- SQL Server (T-SQL)
+- Google docs
+- data cleaning and validation
+- Business-driver analytics
+- Reproducible SQL workflows
+- GitHub documentation best practices
 
 ---
+
+## Why this Project Matters
+This project demonstrates the ability to work with imperfect real-world data, apply sound data quality principles, and translate raw data into meaningful business insights using SQL. It reflects the type of analytical work performed in production environments by data analysts and analytics engineers
 
 ## Key Learnings
 - Practical data cleaning in SQL
