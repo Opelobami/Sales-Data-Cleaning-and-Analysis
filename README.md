@@ -64,3 +64,17 @@ This project demonstrates the ability to work with imperfect real-world data, ap
 - Handling real-world messy data
 - Writing business-focused SQL queries
 - Structuring an analytics portfolio project
+
+---
+
+## Contact  
+
+Let’s connect or collaborate on **Business Intelligence, Data Analytics, or SQL projects** 👇  
+
+**👤 Name:** Opeyemi Ayodeji  
+**🔗 LinkedIn:** [Opeyemi Ayodeji](https://www.linkedin.com/in/opeyemi-ayodeji-86a696b0/)  
+**📧 Email:** sopeyemi65@gmail.com  
+
+---
+
+*From messy sales data to business insights using SQL Server.*
